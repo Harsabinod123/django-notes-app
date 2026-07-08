@@ -1,10 +1,10 @@
 FROM node:8
 
-WORKDIR /app/
-COPY . /app/
+WORKDIR /sunil
+COPY . /sunil
 
 RUN npm install
 
-EXPOSE 3000
+EXPOSE 5000
 
 CMD ["npm","start"]
